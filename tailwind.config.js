@@ -7,6 +7,7 @@ export default {
       current: 'currentColor',
       white: '#ffffff',
       black: '#000000',
+      brown: '#964B00',
       primary: {
         DEFAULT: '#006241',
         50: '#d7e4dd',

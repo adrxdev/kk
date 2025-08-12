@@ -55,16 +55,16 @@ export default function LoginPage() {
         <div className="flex flex-col w-full max-w-md bg-gray bg-gray-100 rounded-3xl p-10 mx-auto">
           <div className="flex items-center gap-3 mb-10 mx-auto">
             <img
-              src="/images/app-logo.svg"
+              src="/images/matwels-logo.png"
               alt="App Logo"
-              className="w-20 h-20 rounded-full object-cover"
+              className=" h-16"
             />
             <p className="text-primary">
-              <span className="block text-xl font-thin">Coffee</span>
-              <span className="block text-2xl font-semibold">Shop</span>
+              <span className="block text-xl font-thin"></span>
+              <span className="block text-2xl font-semibold"></span>
             </p>
           </div>
-          <Title1 className="text-primary">Login</Title1>
+          <Title1 className="text-primary color text-black">Login</Title1>
           <p className="text-gray-500 font-medium mt-2">
             Sign in to continue your coffee journey
           </p>

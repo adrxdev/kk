@@ -9,11 +9,11 @@ export default function Footer() {
           <div className="mb-6 md:mb-0">
             <Link to="/" className="flex items-center text-primary">
               <img
-                src="/images/app-logo.svg"
-                className="h-8 me-3"
+                src="/images/matwels-logo.png"
+                className="h-10 me-3"
                 alt="App Logo"
               />
-              <span className="self-center text-2xl font-semibold whitespace-nowrap">
+              <span className="self-center text-1xl font-semibold whitespace-nowrap text-black ">
                 {APP_NAME}
               </span>
             </Link>
