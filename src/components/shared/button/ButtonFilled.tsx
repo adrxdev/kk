@@ -11,7 +11,7 @@ export default function ButtonFilled(props: BaseButtonProps) {
         'inline-flex items-center justify-center gap-1 text-white font-medium border py-1.5 px-3',
         disabled
           ? ''
-          : 'bg-primary hover:bg-primary-600 border-primary',
+          : 'bg-primary hover:bg-neutral-700 border-primary',
         className
       )}
     >

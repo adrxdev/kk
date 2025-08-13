@@ -12,7 +12,7 @@ export default function IconButton(props: BaseButtonProps) {
         'p-1.5',
         disabled
           ? ''
-          : 'bg-primary hover:bg-primary-600 text-white border-primary',
+          : 'bg-primary hover:bg-neutral-700 text-white border-primary',
         className
       )}
     >

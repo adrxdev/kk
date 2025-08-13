@@ -51,7 +51,7 @@ export default function LoginPage() {
 
   return (
     <>
-      <div className="flex flex-col items-center justify-center w-full h-screen bg-primary p-4">
+      <div className="flex flex-col items-center justify-center w-full h-screen bg-neutral-700 p-4">
         <div className="flex flex-col w-full max-w-md bg-gray bg-gray-100 rounded-3xl p-10 mx-auto">
           <div className="flex items-center gap-3 mb-10 mx-auto">
             <img
@@ -64,7 +64,7 @@ export default function LoginPage() {
               <span className="block text-2xl font-semibold"></span>
             </p>
           </div>
-          <Title1 className="text-primary color text-black">Login</Title1>
+          <Title1 className="text-primary color text-neutral-700">Login</Title1>
           <p className="text-gray-500 font-medium mt-2">
             Sign in to continue your coffee journey
           </p>

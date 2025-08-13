@@ -52,22 +52,28 @@ export default function Navbar() {
             </Link>
             <Link
               to="/orders"
-              className="hidden sm:block text-gray-500 hover:text-primary font-semibold hover:underline"
+              className="hidden sm:block text-gray-500 hover:text-neutral-700 font-semibold"
             >
               Orders
+            </Link>
+            <Link
+              to="/products"
+              className="hidden sm:block text-gray-500 hover:text-neutral-700 font-semibold "
+            >
+              Menu
             </Link>
           </div>
           <div className="flex flex-row items-center space-x-4 w-auto">
             <Link
               to={user?.name ? '/profile' : '/login'}
-              className="hidden sm:block text-gray-500 hover:text-primary font-semibold hover:underline"
+              className="hidden sm:block text-gray-500 hover:text-neutral-700 font-semibold hover:underline"
             >
               {user?.name || 'Login'}
             </Link>
 
             <button
               onClick={handleCartClick}
-              className="relative hover:bg-primary-50 text-black hover:text-primary-600 rounded-full p-2 ease-in"
+              className="relative hover:bg-primary-50 text-black hover:text-neutral-700 rounded-full p-2 ease-in"
             >
               <ShoppingCartIcon className="w-6 h-6" />
               <span className="sr-only">Shopping Cart</span>

@@ -21,7 +21,7 @@ export default function BaseButton({
       onClick={onClick}
       disabled={disabled}
       className={classNames(
-        'focus:outline-none focus:ring-2 focus:ring-primary-200 rounded-lg',
+        'focus:outline-none focus:ring-2 focus:ring-neutral-700 rounded-lg',
         className,
         disabled
           ? 'bg-gray-500 border-gray-500 text-white cursor-not-allowed'

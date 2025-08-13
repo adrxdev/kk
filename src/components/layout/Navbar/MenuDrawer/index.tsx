@@ -27,11 +27,11 @@ export default function MenuDrawer({ show, onClose }: MenuDrawerProps) {
       <div className="p-4 pt-8">
         <div className="flex flex-col items-center">
           <img
-            src={user?.image || '/images/app-logo.svg'}
+            src={user?.image || '/images/matwels-logo.png'}
             alt={user?.name || 'App Logo'}
-            className="w-20 h-20 bg-gray-300 rounded-full object-cover"
+            className="w- h-20 bg-white object-cover"
           />
-          <span className="text-primary text-lg font-semibold line-clamp-2 mt-2">
+          <span className="text-neutral-700 text-lg font-semibold line-clamp-2 mt-2">
             {user?.name || APP_NAME}
           </span>
         </div>

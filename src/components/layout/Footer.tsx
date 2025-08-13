@@ -20,7 +20,7 @@ export default function Footer() {
           </div>
           <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
             <div>
-              <h2 className="mb-6 text-sm font-semibold text-primary uppercase">
+              <h2 className="mb-6 text-sm font-semibold text-primary uppercase text-neutral-700">
                 Follow us
               </h2>
               <ul className="text-gray-500">
@@ -37,7 +37,7 @@ export default function Footer() {
               </ul>
             </div>
             <div>
-              <h2 className="mb-6 text-sm font-semibold text-primary uppercase">
+              <h2 className="mb-6 text-sm font-semibold text-primary uppercase text-neutral-700">
                 Legal
               </h2>
               <ul className="text-gray-500">
@@ -58,7 +58,7 @@ export default function Footer() {
         <hr className="my-2 border-gray-200" />
         <div className="p-2 mx-auto">
           <p className="text-sm text-gray-500 text-center">
-            {'© 2024 '}
+            {'© 2025 '}
             <Link to="/" className="hover:underline">
               {APP_NAME}
             </Link>
