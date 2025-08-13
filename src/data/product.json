@@ -6,5 +6,13 @@
     "price": 49,
     "description": "A classic hot coffee made with a shot of espresso and hot water.",
     "image": "/images/coffee/hot-americano.jpeg"
+  },
+  {
+    "id": "iced-latte",
+    "displayName": "Iced Latte",
+    "type": "iced",
+    "price": 49,
+    "description": "A cold coffee made with a shot of espresso, steamed milk, and ice.",
+    "image": "/images/coffee/iced-latte.jpeg"
   }
 ]
