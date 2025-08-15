@@ -7,15 +7,12 @@ export default function Footer() {
       <div className="w-full mx-auto">
         <div className="w-full max-w-screen-lg md:flex md:justify-between p-4 py-6 lg:py-8 mx-auto">
           <div className="mb-6 md:mb-0">
-            <Link to="/" className="flex items-center text-primary">
+            <Link to="/" className="flex items-center justify-center text-primary">
               <img
-                src="/images/matwels-logo.png"
-                className="h-10 me-3"
+                src="/images/updated-matwels.png"
+                className="h-20 me-3"
                 alt="App Logo"
               />
-              <span className="self-center text-1xl font-semibold whitespace-nowrap text-black ">
-                {APP_NAME}
-              </span>
             </Link>
           </div>
           <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">

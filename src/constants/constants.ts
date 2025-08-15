@@ -11,7 +11,7 @@ export const defaultCoordinate: LatLng = {
   lat: 7.088877,
 }; 
 
-export const defaultDeliFee = 2000;
+export const defaultDeliFee = 100;
 
 export const coffeeSizeOptions = [
   {
@@ -42,7 +42,7 @@ export const deliOptions = [
 export const paymentMethodOptions = [
   {
     value: PaymentMethod.CASH,
-    label: "Cash on Delivery ( Still in Development ) ",
+    label: "Cash on Delivery (Still in Development) ",
     icon: '/images/cash-payment-icon.png',
   },
 

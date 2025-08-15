@@ -45,7 +45,7 @@ export default function Navbar() {
               to="/"
               className="flex items-center space-x-1 focus:outline-none text-primary hover:opacity-70"
             >
-              <img src="/images/matwels-logo.png" className="h-10 w-300" alt="App Logo" />
+              <img src="/images/updated-matwels.png" className="h-11 w-300" alt="App Logo" />
               <span className="self-center text-lg font-semibold whitespace-nowrap">
                
               </span>

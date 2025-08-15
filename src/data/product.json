@@ -8,11 +8,35 @@
     "image": "/images/coffee/hot-americano.jpeg"
   },
   {
-    "id": "iced-latte",
-    "displayName": "Iced Latte",
+    "id": "caramel-macchiato",
+    "displayName": "Caramel Macchiato",
     "type": "iced",
     "price": 49,
     "description": "A cold coffee made with a shot of espresso, steamed milk, and ice.",
-    "image": "/images/coffee/iced-latte.jpeg"
+    "image": "/images/coffee/caramel-mac.jpg"
+  },
+    {
+    "id": "caramel-macchiato",
+    "displayName": "Vanilla Latte",
+    "type": "iced",
+    "price": 49,
+    "description": "A cold coffee made with a shot of espresso, steamed milk, and ice.",
+    "image": "/images/coffee/14.jpg"
+  },
+    {
+    "id": "caramel-macchiato",
+    "displayName": "Caramel Macchiato",
+    "type": "iced",
+    "price": 49,
+    "description": "A cold coffee made with a shot of espresso, steamed milk, and ice.",
+    "image": "/images/coffee/8.jpg"
+  },
+    {
+    "id": "caramel-macchiato",
+    "displayName": "Caramel Macchiato",
+    "type": "iced",
+    "price": 49,
+    "description": "A cold coffee made with a shot of espresso, steamed milk, and ice.",
+    "image": "/images/coffee/5.jpg"
   }
 ]

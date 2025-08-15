@@ -55,9 +55,9 @@ export default function LoginPage() {
         <div className="flex flex-col w-full max-w-md bg-gray bg-gray-100 rounded-3xl p-10 mx-auto">
           <div className="flex items-center gap-3 mb-10 mx-auto">
             <img
-              src="/images/matwels-logo.png"
+              src="/images/updated-matwels.png"
               alt="App Logo"
-              className=" h-16"
+              className=" h-20"
             />
             <p className="text-primary">
               <span className="block text-xl font-thin"></span>

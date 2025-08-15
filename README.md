@@ -70,6 +70,6 @@ yarn dev
 
 ## Contributors
 
-- Zaw Htet Aung
+- Adrx.Dev
 
 Feel free to contribute, report issues, or suggest improvements. Happy coding!
